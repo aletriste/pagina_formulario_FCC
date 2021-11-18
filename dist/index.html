@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Formulario_v1</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  </header>
+<h1 id="title"> Titulo de Fomulario</h1>
+<p id="description">esta es la descripción del fomulario</p>
+  </header>
+<form id="survey-form" action=#>
+  <label for="name" id="name-label">Nombre:</label>
+    <input type="text" id="name" placeholder="ingresa tu nombre" required size="30">
+  <br>
+  <label for="email" id="email-label">e-mail:</label>
+    <input type="email" id="email" placeholder="ingresa tu e-mail" required size="30">
+  <br>
+  <label for="number" id="number-label">Ingresa tu Edad:</label>
+    <input type="number" id="number" placeholder="Edad" min="1" max="90" >
+  <br>
+  <label for="dropdonw" id="dorpdown-label">Provincia:</label>
+  <select id="dropdown" name="provincia" placeholder="Elegi tu provincia">
+  <option>Buenos Aires</option>
+  <option>Santa Fe</option>
+  <option>Entre Rios</option>
+ </select>
+  <fieldset>
+  <legend id="solo-titulo">Decinos con cuanta gente vivis:</legend>
+  <label for="solo" id="solo-label"><input type="radio" value="solo" name="cuantos-vivis">Solo</label>
+  <label for="2a3" id="2a3-label"><input type="radio" value="2a3" name="cuantos-vivis">2 a 3</label>
+  <label for="3a5" id="3a5-label"><input type="radio" value="3a5" name="cuantos-vivis">3 a 5</label>
+  </fieldset>
+  <fieldset>
+  <legend id="familiar-titulo">Que relacion tenes con las personas que convivis</legend>
+  <label for="pareja"><input type="checkbox" id="pareja" value="pareja">Pareja</label>
+   <label for="familiar"><input type="checkbox" id="familiar" value="familiar">Familiar</label>
+   <label for="pareja"><input type="checkbox" id="amistad" value="amistad">Amistad</label>
+    </fieldset>
+  <br>
+  <label for="extra" id="extra-label">Informacion que quieras agregar:</label>
+    <textarea id="extra"></textarea>
+  <label for="submit" id="submit-label"><button type="submit" id="submit">Enviar</button></label>
+  
+</form>
+  
+
+</main>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

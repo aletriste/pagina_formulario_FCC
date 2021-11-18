@@ -1,0 +1,58 @@
+#title{
+    background-color: ;
+    width: 50%;
+   text-align: center;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    width: 50vmax;
+    height: 100%
+}
+#description{
+    background-color: ;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    margin: auto;
+    width: 50vmax;
+    height: 100%
+}
+
+#survey-form{
+    background-color: rgba(45, 45, 45, 0.1);
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 100;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.19);
+    box-sizing: border-box;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50vmax;
+    height: 100%
+}
+
+fieldset{
+  display: contents;
+  padding: 50px;
+  font-size: 18px;
+}
+
+legend{
+  font-size: 25px;
+}
+
+textarea {
+  display : block;
+  padding : 0px;
+  margin  : 10px 0 0 0px;
+  width   : 100%;
+  height  : 100%;
+  border: 1px solid;
+}
+
+input[type=text]{
+  
+}
